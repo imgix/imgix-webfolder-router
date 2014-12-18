@@ -1,0 +1,26 @@
+{
+  "env": {
+    "amd": false,
+    "browser": false,
+    "node": true
+  },
+
+  "globals": {
+    "console": true,
+	"module": true,
+	"exports": true,
+	"require": true
+  },
+
+  "rules": {
+	"no-global-strict": 0,
+	"no-console": 0,
+	"no-underscore-dangle": 0,
+	"space-infix-ops": 0,
+	"camelcase": 0,
+	"no-use-before-define": 0,
+	"no-extend-native": 0,
+	"new-cap": 0,
+	"no-loop-func": 0
+  }
+}
