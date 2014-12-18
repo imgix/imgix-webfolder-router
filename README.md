@@ -64,7 +64,9 @@ So now the single `http://yourcompany.imgix.net` can fetch images from multiple 
 Warnings and Recommendations
 ----------------------------
 
-* This will potentially cause slower fetch times due to the use of redirects. This **only** applies to the first time the image is requested via imgix.
+
+* This will potentially cause slower fetch times due to the use of redirects. This **only** applies to the first time the image is requested via imgix or when the cache expires.
+* Be careful changing the Base URL on a previously used top-level folder, because any previously requested images from the old Base URL will have been cached by the CDN. While it's unlikely there will be a collision with a change, you may still want to [purge images](http://www.imgix.com/docs/tutorials/purging-images) that were cached using the old Base URL.
 * Run this process under supervision
 * This server would be a single-point of failure for images. It may be necessary to run this behind a load balancer.
 
