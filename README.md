@@ -58,7 +58,7 @@ So now the single `http://yourcompany.imgix.net` can fetch images from multiple 
 
 **"app" example**
 
-`http://yourcompany.imgix.net/app/logo.jpg` => `http://www.example.com/application/v2/storage/assets/logo`
+`http://yourcompany.imgix.net/app/logo.jpg` => `http://www.example.com/application/v2/storage/assets/logo.jpg`
 
 <a name="warnings-recs"></a>
 Warnings and Recommendations
