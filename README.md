@@ -42,7 +42,7 @@ Create a configuration file by copying the template `cp config.example.js config
 
 In the [imgix webapp](https://webapp.imgix.com) a new "Web Folder" source would look like this:
 
-![imgix Web Folder Source create screenshot](http://jackangers.imgix.net/source_webfolder_multi2.png?w=500)
+![imgix Web Folder Source create screenshot](http://jackangers.imgix.net/source_webfolder_multi3.png)
 
 #### Route/Fetch Examples
 
