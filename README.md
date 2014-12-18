@@ -40,7 +40,7 @@ Create a configuration file by copying the template `cp config.example.js config
 
 #### Creating imgix source
 
-In the [imgix webapp](https://webapp.imgix.com) a new "Web Folder" source would look like this:
+In the [imgix webapp](https://webapp.imgix.com/add_source) a new "Web Folder" source would look like this:
 
 ![imgix Web Folder Source create screenshot](http://jackangers.imgix.net/source_webfolder_multi3.png)
 
