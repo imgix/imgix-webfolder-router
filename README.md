@@ -72,3 +72,4 @@ Warnings and Recommendations
 <a name="alts"></a>
 Alternatives
 ------------
+You can achieve similar functionality by running a reverse proxy. For further details on this method contact [support@imgix.com](mailto:support@imgix.com)
